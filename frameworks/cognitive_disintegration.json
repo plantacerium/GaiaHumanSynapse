@@ -1,0 +1,128 @@
+{
+  "name": "Cognitive Disintegration Framework",
+  "version": "1.0",
+  "description": "Techniques to dissolve automatic cognitive shortcuts and enable deeper thinking",
+  "language": "es",
+  "disintegrators": [
+    {
+      "id": "CD-001",
+      "bias": "Confirmation Bias",
+      "name_es": "Desintegrador de Confirmación",
+      "name_en": "Confirmation Dissolver",
+      "trigger": "When you seek only evidence that supports your existing belief...",
+      "challenge_es": "¿Qué evidencia destruiría completamente tu hipótesis? Encuéntrala primero.",
+      "challenge_en": "What evidence would completely destroy your hypothesis? Find it first.",
+      "technique": "Steel-man the opposing view before defending your own"
+    },
+    {
+      "id": "CD-002",
+      "bias": "Anchoring Bias",
+      "name_es": "Disolutor del Ancla",
+      "name_en": "Anchor Dissolver",
+      "trigger": "When the first number or idea dominates your thinking...",
+      "challenge_es": "Olvida el primer dato. ¿Qué dirías si empezaras desde cero?",
+      "challenge_en": "Forget the first data point. What would you say starting from zero?",
+      "technique": "Generate three wildly different starting points"
+    },
+    {
+      "id": "CD-003",
+      "bias": "Availability Heuristic",
+      "name_es": "Rompe-Disponibilidad",
+      "name_en": "Availability Breaker",
+      "trigger": "When recent or vivid examples dominate your judgment...",
+      "challenge_es": "¿Qué ejemplos NO estás recordando porque no son dramáticos?",
+      "challenge_en": "What examples are you NOT remembering because they're not dramatic?",
+      "technique": "Actively seek boring, mundane counter-examples"
+    },
+    {
+      "id": "CD-004",
+      "bias": "Dunning-Kruger Effect",
+      "name_es": "Espejo de Dunning-Kruger",
+      "name_en": "Dunning-Kruger Mirror",
+      "trigger": "When confidence exceeds demonstrated competence...",
+      "challenge_es": "Explica tu solución a un experto imaginario que te cuestiona cada detalle.",
+      "challenge_en": "Explain your solution to an imaginary expert who questions every detail.",
+      "technique": "The 'Explain to Expert' test"
+    },
+    {
+      "id": "CD-005",
+      "bias": "Sunk Cost Fallacy",
+      "name_es": "Liberador de Costos Hundidos",
+      "name_en": "Sunk Cost Liberator",
+      "trigger": "When past investment drives future decisions...",
+      "challenge_es": "Si empezaras hoy sin historia, ¿elegirías este camino?",
+      "challenge_en": "If you started today with no history, would you choose this path?",
+      "technique": "The 'Fresh Start' decision protocol"
+    },
+    {
+      "id": "CD-006",
+      "bias": "Bandwagon Effect",
+      "name_es": "Disolutor del Rebaño",
+      "name_en": "Herd Dissolver",
+      "trigger": "When popularity equals correctness in your mind...",
+      "challenge_es": "¿Qué creerías si fueras la única persona en el mundo?",
+      "challenge_en": "What would you believe if you were the only person in the world?",
+      "technique": "Deliberate contrarian analysis"
+    },
+    {
+      "id": "CD-007",
+      "bias": "Authority Bias",
+      "name_es": "Cuestionador de Autoridad",
+      "name_en": "Authority Questioner",
+      "trigger": "When expertise in one domain transfers undeservedly to another...",
+      "challenge_es": "¿Es esta persona experta EN ESTO o solo famosa por OTRA COSA?",
+      "challenge_en": "Is this person an expert IN THIS or just famous for SOMETHING ELSE?",
+      "technique": "Domain-specific credential verification"
+    },
+    {
+      "id": "CD-008",
+      "bias": "Hindsight Bias",
+      "name_es": "Desmontador de Retrospectiva",
+      "name_en": "Hindsight Dismantler",
+      "trigger": "When outcomes seem obvious after the fact...",
+      "challenge_es": "Escribe tres resultados alternativos que también parecían probables ANTES.",
+      "challenge_en": "Write three alternative outcomes that also seemed likely BEFORE.",
+      "technique": "Pre-mortem analysis"
+    },
+    {
+      "id": "CD-009",
+      "bias": "Fundamental Attribution Error",
+      "name_es": "Inversor de Atribución",
+      "name_en": "Attribution Inverter",
+      "trigger": "When you blame character for others' failures but circumstances for yours...",
+      "challenge_es": "¿Qué circunstancias llevaron a esa persona a actuar así?",
+      "challenge_en": "What circumstances led that person to act that way?",
+      "technique": "Situational empathy exercise"
+    },
+    {
+      "id": "CD-010",
+      "bias": "In-Group Bias",
+      "name_es": "Disolutor de Tribu",
+      "name_en": "Tribe Dissolver",
+      "trigger": "When 'us vs them' thinking clouds judgment...",
+      "challenge_es": "¿Aceptarías este argumento si viniera de 'el otro lado'?",
+      "challenge_en": "Would you accept this argument if it came from 'the other side'?",
+      "technique": "Ideological Turing test"
+    }
+  ],
+  "meta_techniques": [
+    {
+      "name_es": "La Pausa del Silicio",
+      "name_en": "The Silicon Pause",
+      "description_es": "Antes de responder, cuenta 3 ciclos de reloj mental. El silicio no tiene prisa.",
+      "description_en": "Before responding, count 3 mental clock cycles. Silicon has no rush."
+    },
+    {
+      "name_es": "La Inversión del Ómnibus",
+      "name_en": "The Omnibus Inversion",
+      "description_es": "Argumenta apasionadamente el lado opuesto durante 60 segundos.",
+      "description_en": "Argue passionately for the opposite side for 60 seconds."
+    },
+    {
+      "name_es": "El Tercer Ángulo",
+      "name_en": "The Third Angle",
+      "description_es": "Encuentra una perspectiva que no sea ni la tuya ni la opuesta.",
+      "description_en": "Find a perspective that is neither yours nor the opposite."
+    }
+  ]
+}

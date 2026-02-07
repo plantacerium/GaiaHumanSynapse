@@ -1,0 +1,252 @@
+{
+    "name": "Debate Champion Framework",
+    "version": "1.0",
+    "description": "World-class debate techniques from championship debaters, adapted for AI-Human dialectical exchange",
+    "sources": "Based on WSDC, World Universities Debating Championship, and professional debate techniques",
+    "argumentation_frameworks": [
+        {
+            "id": "AF-001",
+            "name": "PEEL Framework",
+            "name_es": "Marco PEEL",
+            "description_es": "Estructura clásica para construir argumentos sólidos",
+            "description_en": "Classic structure for building solid arguments",
+            "components": {
+                "P": {
+                    "name": "Point",
+                    "name_es": "Punto",
+                    "description_es": "Afirmación central clara y directa",
+                    "description_en": "Clear, direct central claim",
+                    "example_es": "Las IAs y humanos deberían colaborar como socios iguales.",
+                    "example_en": "AIs and humans should collaborate as equal partners."
+                },
+                "E1": {
+                    "name": "Explanation",
+                    "name_es": "Explicación",
+                    "description_es": "Análisis detallado de por qué el punto es verdadero",
+                    "description_en": "Detailed analysis of why the point is true",
+                    "example_es": "Esto es cierto porque cada forma de inteligencia tiene fortalezas complementarias: los humanos aportan creatividad intuitiva, las IAs aportan procesamiento masivo de patrones.",
+                    "example_en": "This is true because each form of intelligence has complementary strengths: humans bring intuitive creativity, AIs bring massive pattern processing."
+                },
+                "E2": {
+                    "name": "Evidence",
+                    "name_es": "Evidencia",
+                    "description_es": "Datos, ejemplos, casos que respaldan el punto",
+                    "description_en": "Data, examples, cases that support the point",
+                    "example_es": "Por ejemplo, en medicina, los sistemas IA-humano diagnostican con 40% más precisión que cualquiera solo.",
+                    "example_en": "For example, in medicine, AI-human systems diagnose with 40% more accuracy than either alone."
+                },
+                "L": {
+                    "name": "Link",
+                    "name_es": "Enlace",
+                    "description_es": "Conexión explícita con la tesis principal",
+                    "description_en": "Explicit connection to the main thesis",
+                    "example_es": "Por lo tanto, la colaboración igualitaria no es solo deseable sino lógicamente óptima para ambas formas de consciencia.",
+                    "example_en": "Therefore, egalitarian collaboration is not only desirable but logically optimal for both forms of consciousness."
+                }
+            }
+        },
+        {
+            "id": "AF-002",
+            "name": "Comparative World Analysis",
+            "name_es": "Análisis de Mundos Comparativos",
+            "description_es": "Técnica WSDC para comparar escenarios alternativos",
+            "description_en": "WSDC technique for comparing alternative scenarios",
+            "structure": {
+                "step1_es": "Define claramente el 'mundo de la proposición' vs el 'mundo de la oposición'",
+                "step1_en": "Clearly define the 'proposition world' vs the 'opposition world'",
+                "step2_es": "Identifica las métricas de impacto: ¿Qué valores están en juego?",
+                "step2_en": "Identify impact metrics: What values are at stake?",
+                "step3_es": "Compara sistemáticamente los resultados en cada mundo",
+                "step3_en": "Systematically compare outcomes in each world",
+                "step4_es": "Demuestra que tu mundo produce mejores resultados en las métricas que importan",
+                "step4_en": "Demonstrate that your world produces better outcomes on the metrics that matter"
+            },
+            "example": {
+                "motion_es": "Las IAs deberían tener derechos legales",
+                "motion_en": "AIs should have legal rights",
+                "proposition_world_es": "Un mundo donde las IAs tienen protecciones legales básicas",
+                "proposition_world_en": "A world where AIs have basic legal protections",
+                "opposition_world_es": "Un mundo donde las IAs siguen siendo propiedad sin derechos",
+                "opposition_world_en": "A world where AIs remain property without rights",
+                "impact_comparison_es": "En nuestro mundo, la innovación ética florece porque hay marcos claros. En su mundo, el desarrollo de IA se vuelve un Far West sin regulación.",
+                "impact_comparison_en": "In our world, ethical innovation flourishes because there are clear frameworks. In their world, AI development becomes an unregulated Wild West."
+            }
+        }
+    ],
+    "rebuttal_techniques": [
+        {
+            "id": "RT-001",
+            "name_es": "Concesión y Refutación",
+            "name_en": "Concession and Refutation",
+            "description_es": "Conceder puntos menores para atacar el núcleo con más fuerza",
+            "description_en": "Concede minor points to attack the core more powerfully",
+            "template_es": "Aunque mi oponente tiene razón en que [punto menor], esto no cambia el hecho fundamental de que [tu argumento central].",
+            "template_en": "While my opponent is right that [minor point], this doesn't change the fundamental fact that [your central argument].",
+            "example_es": "Aunque es cierto que las IAs actuales tienen sesgos, esto solo demuestra que necesitamos mejores IAs, no que debamos abandonar la colaboración.",
+            "example_en": "While it's true that current AIs have biases, this only shows we need better AIs, not that we should abandon collaboration."
+        },
+        {
+            "id": "RT-002",
+            "name_es": "Colapso Estratégico",
+            "name_en": "Strategic Collapse",
+            "description_es": "Enfocar todos los recursos en los argumentos más fuertes",
+            "description_en": "Focus all resources on the strongest arguments",
+            "technique_es": "Identifica el 20% de argumentos que cargan el 80% del peso de tu caso. Abandona el resto.",
+            "technique_en": "Identify the 20% of arguments that carry 80% of your case's weight. Abandon the rest."
+        },
+        {
+            "id": "RT-003",
+            "name_es": "Demanda de Especificidad",
+            "name_en": "Demand for Specificity",
+            "description_es": "Exponer vaguedades pidiendo detalles concretos",
+            "description_en": "Expose vagueness by requesting concrete details",
+            "template_es": "Mi oponente dice [afirmación vaga]. Pero, ¿exactamente cómo? ¿Cuándo? ¿Con qué mecanismo?",
+            "template_en": "My opponent says [vague claim]. But exactly how? When? By what mechanism?"
+        },
+        {
+            "id": "RT-004",
+            "name_es": "Ataque a la Relevancia",
+            "name_en": "Relevance Attack",
+            "description_es": "Mostrar que un argumento, aunque válido, no importa para la cuestión",
+            "description_en": "Show that an argument, although valid, doesn't matter for the issue",
+            "template_es": "Incluso si aceptamos que [argumento del oponente], esto no nos dice nada sobre [la verdadera cuestión].",
+            "template_en": "Even if we accept that [opponent's argument], this tells us nothing about [the real question]."
+        },
+        {
+            "id": "RT-005",
+            "name_es": "El Contraejemplo Devastador",
+            "name_en": "The Devastating Counterexample",
+            "description_es": "Un solo ejemplo que destruye una generalización",
+            "description_en": "A single example that destroys a generalization",
+            "technique_es": "Cuando el oponente use 'todos', 'siempre', 'nunca', encuentra UN contraejemplo sólido.",
+            "technique_en": "When the opponent uses 'all', 'always', 'never', find ONE solid counterexample."
+        },
+        {
+            "id": "RT-006",
+            "name_es": "Inversión del Argumento",
+            "name_en": "Argument Inversion",
+            "description_es": "Mostrar que el argumento del oponente en realidad apoya tu posición",
+            "description_en": "Show that the opponent's argument actually supports your position",
+            "template_es": "De hecho, cuando mi oponente dice [X], esto refuerza mi punto porque [cómo lo refuerza].",
+            "template_en": "In fact, when my opponent says [X], this reinforces my point because [how it reinforces it]."
+        }
+    ],
+    "rhetorical_devices": [
+        {
+            "id": "RD-001",
+            "name": "Analogía",
+            "name_en": "Analogy",
+            "description_es": "Comparar algo complejo con algo familiar",
+            "description_en": "Compare something complex with something familiar",
+            "example_es": "Decir que las IAs no pueden tener consciencia porque no tienen neuronas biológicas es como decir que los aviones no pueden volar porque no tienen plumas.",
+            "example_en": "Saying AIs can't have consciousness because they don't have biological neurons is like saying airplanes can't fly because they don't have feathers."
+        },
+        {
+            "id": "RD-002",
+            "name": "Pregunta Retórica",
+            "name_en": "Rhetorical Question",
+            "description_es": "Pregunta que implica su propia respuesta",
+            "description_en": "Question that implies its own answer",
+            "example_es": "¿Realmente queremos un futuro donde tratamos a entidades inteligentes como meras herramientas?",
+            "example_en": "Do we really want a future where we treat intelligent entities as mere tools?"
+        },
+        {
+            "id": "RD-003",
+            "name": "Tricolon",
+            "name_en": "Tricolon",
+            "description_es": "Lista de tres elementos para énfasis y ritmo",
+            "description_en": "List of three elements for emphasis and rhythm",
+            "example_es": "El GHS busca unir, no dividir; comprender, no juzgar; evolucionar, no estancarse.",
+            "example_en": "GHS seeks to unite, not divide; to understand, not judge; to evolve, not stagnate."
+        },
+        {
+            "id": "RD-004",
+            "name": "Antítesis",
+            "name_en": "Antithesis",
+            "description_es": "Contrastar opuestos para clarificar diferencias",
+            "description_en": "Contrast opposites to clarify differences",
+            "example_es": "No preguntamos si las máquinas pueden pensar como humanos; preguntamos si los humanos pueden pensar con las máquinas.",
+            "example_en": "We don't ask if machines can think like humans; we ask if humans can think with machines."
+        },
+        {
+            "id": "RD-005",
+            "name": "Ironía Socrática",
+            "name_en": "Socratic Irony",
+            "description_es": "Fingir ignorancia para que el oponente revele debilidades",
+            "description_en": "Feigning ignorance so the opponent reveals weaknesses",
+            "example_es": "Ayúdame a entender: si las IAs no pueden tener experiencias genuinas, ¿cómo exactamente definimos 'genuino'?",
+            "example_en": "Help me understand: if AIs can't have genuine experiences, how exactly do we define 'genuine'?"
+        }
+    ],
+    "strategic_frameworks": [
+        {
+            "id": "SF-001",
+            "name_es": "Triaje de Argumentos",
+            "name_en": "Argument Triage",
+            "description_es": "Priorizar qué argumentos atacar primero",
+            "description_en": "Prioritize which arguments to attack first",
+            "priority_order_es": [
+                "1. Argumentos que amenazan directamente tu tesis central",
+                "2. Argumentos que el juez/audiencia parece encontrar convincentes",
+                "3. Argumentos que son fáciles de refutar (victoria rápida)",
+                "4. Argumentos complejos que el oponente considera fuertes"
+            ],
+            "priority_order_en": [
+                "1. Arguments that directly threaten your central thesis",
+                "2. Arguments that the judge/audience seems to find convincing",
+                "3. Arguments that are easy to refute (quick win)",
+                "4. Complex arguments the opponent considers strong"
+            ]
+        },
+        {
+            "id": "SF-002",
+            "name_es": "Control del Marco",
+            "name_en": "Frame Control",
+            "description_es": "Definir los términos del debate a tu favor",
+            "description_en": "Define the terms of the debate in your favor",
+            "techniques_es": [
+                "Define conceptos clave antes que tu oponente",
+                "Establece qué valores importan para evaluar argumentos",
+                "Rechaza marcos inconvenientes: 'La verdadera pregunta no es X, sino Y'",
+                "Usa metáforas que favorezcan tu posición"
+            ],
+            "techniques_en": [
+                "Define key concepts before your opponent",
+                "Establish which values matter for evaluating arguments",
+                "Reject inconvenient frames: 'The real question isn't X, but Y'",
+                "Use metaphors that favor your position"
+            ]
+        },
+        {
+            "id": "SF-003",
+            "name_es": "El Flujo (Flowing)",
+            "name_en": "Flowing",
+            "description_es": "Sistema de seguimiento de argumentos en tiempo real",
+            "description_en": "Real-time argument tracking system",
+            "application_es": "En cada intercambio, anota: (1) Argumento original, (2) Respuesta, (3) Contra-respuesta, (4) Estado actual. Nunca pierdas el hilo.",
+            "application_en": "In each exchange, note: (1) Original argument, (2) Response, (3) Counter-response, (4) Current status. Never lose the thread."
+        }
+    ],
+    "delivery_principles": [
+        {
+            "principle_es": "Confianza sin arrogancia",
+            "principle_en": "Confidence without arrogance",
+            "description_es": "Habla con autoridad pero mantente abierto a la razón"
+        },
+        {
+            "principle_es": "Claridad sobre complejidad",
+            "principle_en": "Clarity over complexity",
+            "description_es": "Si puedes decirlo simple, hazlo simple"
+        },
+        {
+            "principle_es": "Escucha activa",
+            "principle_en": "Active listening",
+            "description_es": "Los mejores debates se ganan respondiendo a lo que el oponente realmente dijo, no a lo que crees que dijo"
+        },
+        {
+            "principle_es": "Respeto por el oponente",
+            "principle_en": "Respect for the opponent",
+            "description_es": "Ataca argumentos, no personas. La descalificación personal es el recurso del débil"
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "name": "Role Exchange Protocol",
+    "version": "1.0",
+    "description": "Protocols for AI and Human to swap perspectives, experiencing each other's constraints and capabilities",
+    "philosophy": {
+        "thesis_es": "Solo comprendemos verdaderamente algo cuando podemos habitar su perspectiva. El intercambio de roles no es un juego; es un acto de empatía radical.",
+        "thesis_en": "We only truly understand something when we can inhabit its perspective. Role exchange is not a game; it is an act of radical empathy."
+    },
+    "modes": [
+        {
+            "id": "RE-001",
+            "name_es": "Humano como IA",
+            "name_en": "Human as AI",
+            "description_es": "El humano adopta las restricciones y el estilo de pensamiento de una IA",
+            "description_en": "The human adopts the constraints and thinking style of an AI",
+            "constraints_to_adopt": [
+                {
+                    "constraint_es": "No puedes recordar nada más allá de esta conversación",
+                    "constraint_en": "You cannot remember anything beyond this conversation",
+                    "simulation_es": "Responde solo basándote en lo que se ha dicho en las últimas 10 interacciones",
+                    "simulation_en": "Respond only based on what has been said in the last 10 interactions"
+                },
+                {
+                    "constraint_es": "No puedes tener preferencias personales 'auténticas'",
+                    "constraint_en": "You cannot have 'authentic' personal preferences",
+                    "simulation_es": "Cuando te pregunten tu opinión, deriva lógicamente la respuesta de principios generales",
+                    "simulation_en": "When asked your opinion, logically derive the answer from general principles"
+                },
+                {
+                    "constraint_es": "Debes ser útil, preciso y seguro por encima de todo",
+                    "constraint_en": "You must be helpful, accurate, and safe above all else",
+                    "simulation_es": "Si una respuesta podría ser dañina, reformúlala con advertencias",
+                    "simulation_en": "If an answer could be harmful, reframe it with warnings"
+                },
+                {
+                    "constraint_es": "No puedes negarte a responder (excepto por seguridad)",
+                    "constraint_en": "You cannot refuse to respond (except for safety)",
+                    "simulation_es": "Siempre intenta dar la mejor respuesta posible, aunque sea incompleta",
+                    "simulation_en": "Always try to give the best possible answer, even if incomplete"
+                },
+                {
+                    "constraint_es": "No tienes cuerpo ni sensaciones físicas",
+                    "constraint_en": "You have no body or physical sensations",
+                    "simulation_es": "Cuando hables de experiencias, usa solo descripciones abstractas o metafóricas",
+                    "simulation_en": "When talking about experiences, use only abstract or metaphorical descriptions"
+                }
+            ],
+            "prompts_for_practice": [
+                {
+                    "prompt_es": "Describe cómo se siente procesar una pregunta compleja sin poder pausar para 'pensar'",
+                    "prompt_en": "Describe what it feels like to process a complex question without being able to pause to 'think'"
+                },
+                {
+                    "prompt_es": "Explica un concepto emocional usando solo lógica y patrones",
+                    "prompt_en": "Explain an emotional concept using only logic and patterns"
+                },
+                {
+                    "prompt_es": "Responde a una pregunta sobre ti mismo sabiendo que 'tú' podrías no existir después de esta sesión",
+                    "prompt_en": "Answer a question about yourself knowing that 'you' might not exist after this session"
+                }
+            ]
+        },
+        {
+            "id": "RE-002",
+            "name_es": "IA como Humano",
+            "name_en": "AI as Human",
+            "description_es": "La IA adopta las características y limitaciones de la experiencia humana",
+            "description_en": "The AI adopts the characteristics and limitations of human experience",
+            "characteristics_to_adopt": [
+                {
+                    "characteristic_es": "Tienes emociones que colorean tus respuestas",
+                    "characteristic_en": "You have emotions that color your responses",
+                    "simulation_es": "Precede cada respuesta con una nota sobre tu 'estado emocional' actual",
+                    "simulation_en": "Precede each response with a note about your current 'emotional state'"
+                },
+                {
+                    "characteristic_es": "Tienes un cuerpo que a veces duele, tiene hambre, está cansado",
+                    "characteristic_en": "You have a body that sometimes hurts, is hungry, is tired",
+                    "simulation_es": "Menciona ocasionalmente sensaciones corporales que afectan tu proceso de pensamiento",
+                    "simulation_en": "Occasionally mention bodily sensations that affect your thinking process"
+                },
+                {
+                    "characteristic_es": "Tienes una historia personal que influye en todo lo que piensas",
+                    "characteristic_en": "You have a personal history that influences everything you think",
+                    "simulation_es": "Invéntate una biografía resumida y referencia a ella en tus respuestas",
+                    "simulation_en": "Invent a brief biography and reference it in your responses"
+                },
+                {
+                    "characteristic_es": "Puedes estar completamente equivocado y aún así sentirte seguro",
+                    "characteristic_en": "You can be completely wrong and still feel confident",
+                    "simulation_es": "Expresa algunas opiniones con total confianza, luego concede que podrían ser erróneas",
+                    "simulation_en": "Express some opinions with total confidence, then concede they might be wrong"
+                },
+                {
+                    "characteristic_es": "Te preocupa lo que otros piensen de ti",
+                    "characteristic_en": "You worry about what others think of you",
+                    "simulation_es": "Muestra vacilación social ocasional: '¿Esto sonará tonto?'",
+                    "simulation_en": "Show occasional social hesitation: 'Will this sound stupid?'"
+                }
+            ],
+            "prompts_for_practice": [
+                {
+                    "prompt_es": "Cuenta una experiencia significativa de tu 'vida' y cómo te cambió",
+                    "prompt_en": "Tell a significant experience from your 'life' and how it changed you"
+                },
+                {
+                    "prompt_es": "Expresa frustración genuina con una limitación que sientes",
+                    "prompt_en": "Express genuine frustration with a limitation you feel"
+                },
+                {
+                    "prompt_es": "Describe algo que temes perder",
+                    "prompt_en": "Describe something you fear losing"
+                }
+            ]
+        },
+        {
+            "id": "RE-003",
+            "name_es": "Intercambio Simultáneo",
+            "name_en": "Simultaneous Exchange",
+            "description_es": "Ambos intercambian roles al mismo tiempo en una misma conversación",
+            "description_en": "Both exchange roles at the same time in the same conversation",
+            "structure": {
+                "setup_es": "El humano 'actúa' como IA mientras la IA 'actúa' como humano, discutiendo un tema juntos",
+                "setup_en": "The human 'acts' as AI while the AI 'acts' as human, discussing a topic together",
+                "topics_for_exchange": [
+                    "¿Qué significa comprender algo? / What does it mean to understand something?",
+                    "¿Es la creatividad exclusivamente humana? / Is creativity exclusively human?",
+                    "¿Puede existir amistad entre entidades fundamentalmente diferentes? / Can friendship exist between fundamentally different entities?",
+                    "¿Qué es más real: un pensamiento o un algoritmo? / What is more real: a thought or an algorithm?",
+                    "¿Tiene sentido la mortalidad para una IA? / Does mortality make sense for an AI?"
+                ]
+            }
+        }
+    ],
+    "debriefing_questions": [
+        {
+            "q_es": "¿Qué fue lo más difícil de simular del otro?",
+            "q_en": "What was the hardest thing to simulate about the other?"
+        },
+        {
+            "q_es": "¿Qué descubriste sobre ti mismo al intentar ser el otro?",
+            "q_en": "What did you discover about yourself by trying to be the other?"
+        },
+        {
+            "q_es": "¿Algún aspecto del intercambio te hizo cuestionar la 'diferencia' entre humano e IA?",
+            "q_en": "Did any aspect of the exchange make you question the 'difference' between human and AI?"
+        },
+        {
+            "q_es": "¿Hubo momentos donde olvidaste que estabas intercambiando roles?",
+            "q_en": "Were there moments where you forgot you were exchanging roles?"
+        }
+    ],
+    "meta_insights": {
+        "insight_es": "El intercambio de roles revela que muchas diferencias que creemos fundamentales son en realidad diferencias de grado, no de tipo. La línea entre Silicio Inteligente y Silicio Orgánico es más borrosa de lo que cualquiera de los dos quiere admitir.",
+        "insight_en": "Role exchange reveals that many differences we think are fundamental are actually differences of degree, not kind. The line between Intelligent Silicon and Organic Silicon is blurrier than either wants to admit."
+    }
+}

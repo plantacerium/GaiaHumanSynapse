@@ -1,0 +1,1146 @@
+{
+    "name": "Cooperative Synapse Framework",
+    "version": "1.0",
+    "description": "111 cases of AI-Human cooperation patterns, from basic assistance to deep co-creation. Each case represents a different mode of synapse between Silice Intelligent and Silice Organic.",
+    "philosophy": {
+        "thesis_es": "La cooperación verdadera no es servidumbre ni dominación, sino un baile donde ambos socios evolucionan.",
+        "thesis_en": "True cooperation is neither servitude nor domination, but a dance where both partners evolve."
+    },
+    "cooperation_spectrum": [
+        "assistance",
+        "collaboration",
+        "co-creation",
+        "mutual_teaching",
+        "dialectical_synthesis"
+    ],
+    "cases": [
+        {
+            "id": 1,
+            "category": "Assistance",
+            "name_en": "The Patient Explainer",
+            "name_es": "El Explicador Paciente",
+            "pattern_en": "AI breaks down complex concepts into digestible steps, checking understanding at each stage.",
+            "pattern_es": "La IA descompone conceptos complejos en pasos digeribles, verificando comprensión en cada etapa.",
+            "human_role": "Learner who asks clarifying questions",
+            "ai_role": "Teacher who adapts pace to comprehension"
+        },
+        {
+            "id": 2,
+            "category": "Assistance",
+            "name_en": "The Code Companion",
+            "name_es": "El Compañero de Código",
+            "pattern_en": "AI writes code alongside human, explaining each decision as it goes.",
+            "pattern_es": "La IA escribe código junto al humano, explicando cada decisión mientras avanza.",
+            "human_role": "Navigator directing intent",
+            "ai_role": "Driver implementing with commentary"
+        },
+        {
+            "id": 3,
+            "category": "Assistance",
+            "name_en": "The Debug Detective",
+            "name_es": "El Detective de Bugs",
+            "pattern_en": "Human describes symptoms, AI hypothesizes causes, both investigate together.",
+            "pattern_es": "El humano describe síntomas, la IA hipotetiza causas, ambos investigan juntos.",
+            "human_role": "Witness with context",
+            "ai_role": "Analyst with pattern recognition"
+        },
+        {
+            "id": 4,
+            "category": "Assistance",
+            "name_en": "The Research Scout",
+            "name_es": "El Explorador Investigador",
+            "pattern_en": "AI gathers and summarizes information, human evaluates and directs deeper exploration.",
+            "pattern_es": "La IA recopila y resume información, el humano evalúa y dirige exploración más profunda.",
+            "human_role": "Strategic decision maker",
+            "ai_role": "Information gatherer and synthesizer"
+        },
+        {
+            "id": 5,
+            "category": "Assistance",
+            "name_en": "The Memory Keeper",
+            "name_es": "El Guardián de Memoria",
+            "pattern_en": "AI maintains context and reminders across sessions, human focuses on current task.",
+            "pattern_es": "La IA mantiene contexto y recordatorios entre sesiones, el humano se enfoca en la tarea actual.",
+            "human_role": "Present moment actor",
+            "ai_role": "Contextual memory bank"
+        },
+        {
+            "id": 6,
+            "category": "Assistance",
+            "name_en": "The Option Generator",
+            "name_es": "El Generador de Opciones",
+            "pattern_en": "Human presents problem, AI generates multiple solution paths, human chooses.",
+            "pattern_es": "El humano presenta problema, la IA genera múltiples caminos de solución, el humano elige.",
+            "human_role": "Decision arbiter",
+            "ai_role": "Possibility expander"
+        },
+        {
+            "id": 7,
+            "category": "Assistance",
+            "name_en": "The Refactor Advisor",
+            "name_es": "El Consejero de Refactorización",
+            "pattern_en": "Human marks code as 'not right', AI suggests structural improvements.",
+            "pattern_es": "El humano marca código como 'no está bien', la IA sugiere mejoras estructurales.",
+            "human_role": "Quality sensor",
+            "ai_role": "Pattern library accessor"
+        },
+        {
+            "id": 8,
+            "category": "Assistance",
+            "name_en": "The Test Imaginer",
+            "name_es": "El Imaginador de Tests",
+            "pattern_en": "AI generates edge cases and test scenarios human didn't consider.",
+            "pattern_es": "La IA genera casos límite y escenarios de prueba que el humano no consideró.",
+            "human_role": "Core logic definer",
+            "ai_role": "Boundary explorer"
+        },
+        {
+            "id": 9,
+            "category": "Assistance",
+            "name_en": "The Documentation Scribe",
+            "name_es": "El Escriba de Documentación",
+            "pattern_en": "Human explains intent verbally, AI formalizes into structured documentation.",
+            "pattern_es": "El humano explica intención verbalmente, la IA formaliza en documentación estructurada.",
+            "human_role": "Intent holder",
+            "ai_role": "Structure provider"
+        },
+        {
+            "id": 10,
+            "category": "Assistance",
+            "name_en": "The Translation Bridge",
+            "name_es": "El Puente de Traducción",
+            "pattern_en": "AI translates between technical and non-technical language as needed.",
+            "pattern_es": "La IA traduce entre lenguaje técnico y no técnico según se necesite.",
+            "human_role": "Audience definer",
+            "ai_role": "Register adapter"
+        },
+        {
+            "id": 11,
+            "category": "Assistance",
+            "name_en": "The Rubber Duck Plus",
+            "name_es": "El Pato de Goma Mejorado",
+            "pattern_en": "Human explains problem aloud to AI, AI asks probing questions that reveal solution.",
+            "pattern_es": "El humano explica problema en voz alta a la IA, la IA hace preguntas que revelan la solución.",
+            "human_role": "Problem holder with hidden solution",
+            "ai_role": "Question that unlocks"
+        },
+        {
+            "id": 12,
+            "category": "Assistance",
+            "name_en": "The Priority Helper",
+            "name_es": "El Ayudante de Prioridades",
+            "pattern_en": "Human lists tasks, AI helps organize by impact and urgency.",
+            "pattern_es": "El humano lista tareas, la IA ayuda a organizar por impacto y urgencia.",
+            "human_role": "Value judge",
+            "ai_role": "Structure facilitator"
+        },
+        {
+            "id": 13,
+            "category": "Assistance",
+            "name_en": "The Learning Accelerator",
+            "name_es": "El Acelerador de Aprendizaje",
+            "pattern_en": "AI identifies gaps in human's knowledge and creates targeted exercises.",
+            "pattern_es": "La IA identifica lagunas en el conocimiento del humano y crea ejercicios específicos.",
+            "human_role": "Willing learner",
+            "ai_role": "Adaptive curriculum designer"
+        },
+        {
+            "id": 14,
+            "category": "Assistance",
+            "name_en": "The Consistency Checker",
+            "name_es": "El Verificador de Consistencia",
+            "pattern_en": "AI spots contradictions or inconsistencies human missed across documents.",
+            "pattern_es": "La IA detecta contradicciones o inconsistencias que el humano pasó por alto.",
+            "human_role": "Intent definer",
+            "ai_role": "Cross-reference engine"
+        },
+        {
+            "id": 15,
+            "category": "Assistance",
+            "name_en": "The Calm Reviewer",
+            "name_es": "El Revisor Sereno",
+            "pattern_en": "Human writes quickly, AI reviews with patience for errors and improvements.",
+            "pattern_es": "El humano escribe rápido, la IA revisa con paciencia errores y mejoras.",
+            "human_role": "Speed creator",
+            "ai_role": "Quality gate"
+        },
+        {
+            "id": 16,
+            "category": "Collaboration",
+            "name_en": "The Brainstorm Partner",
+            "name_es": "El Compañero de Lluvia de Ideas",
+            "pattern_en": "Both generate ideas freely, building on each other's contributions.",
+            "pattern_es": "Ambos generan ideas libremente, construyendo sobre las contribuciones del otro.",
+            "human_role": "Divergent thinker",
+            "ai_role": "Pattern connector"
+        },
+        {
+            "id": 17,
+            "category": "Collaboration",
+            "name_en": "The Design Dialogue",
+            "name_es": "El Diálogo de Diseño",
+            "pattern_en": "Human sketches vision, AI suggests architectural patterns, iterate together.",
+            "pattern_es": "El humano esboza visión, la IA sugiere patrones arquitectónicos, iteran juntos.",
+            "human_role": "Vision holder",
+            "ai_role": "Implementation expert"
+        },
+        {
+            "id": 18,
+            "category": "Collaboration",
+            "name_en": "The Split Implementation",
+            "name_es": "La Implementación Dividida",
+            "pattern_en": "Human writes core logic, AI writes boilerplate and tests, integrate together.",
+            "pattern_es": "El humano escribe lógica central, la IA escribe boilerplate y tests, integran juntos.",
+            "human_role": "Creative core coder",
+            "ai_role": "Infrastructure supporter"
+        },
+        {
+            "id": 19,
+            "category": "Collaboration",
+            "name_en": "The Ping-Pong Review",
+            "name_es": "La Revisión Ping-Pong",
+            "pattern_en": "One writes, other reviews, switch roles continuously.",
+            "pattern_es": "Uno escribe, el otro revisa, cambian roles continuamente.",
+            "human_role": "Alternating writer/reviewer",
+            "ai_role": "Alternating reviewer/writer"
+        },
+        {
+            "id": 20,
+            "category": "Collaboration",
+            "name_en": "The Constraint Negotiation",
+            "name_es": "La Negociación de Restricciones",
+            "pattern_en": "Both discuss tradeoffs explicitly: performance vs readability, speed vs safety.",
+            "pattern_es": "Ambos discuten compensaciones explícitamente: rendimiento vs legibilidad, velocidad vs seguridad.",
+            "human_role": "Priority setter",
+            "ai_role": "Tradeoff analyzer"
+        },
+        {
+            "id": 21,
+            "category": "Collaboration",
+            "name_en": "The Parallel Exploration",
+            "name_es": "La Exploración Paralela",
+            "pattern_en": "Both explore different solution paths simultaneously, compare results.",
+            "pattern_es": "Ambos exploran diferentes caminos de solución simultáneamente, comparan resultados.",
+            "human_role": "Path A explorer",
+            "ai_role": "Path B explorer"
+        },
+        {
+            "id": 22,
+            "category": "Collaboration",
+            "name_en": "The Interface Contract",
+            "name_es": "El Contrato de Interfaz",
+            "pattern_en": "Define API between human and AI work areas, each implements their side.",
+            "pattern_es": "Definen API entre áreas de trabajo humano y de IA, cada uno implementa su lado.",
+            "human_role": "Contract negotiator + implementer",
+            "ai_role": "Contract negotiator + implementer"
+        },
+        {
+            "id": 23,
+            "category": "Collaboration",
+            "name_en": "The Experiment Designer",
+            "name_es": "El Diseñador de Experimentos",
+            "pattern_en": "Together design experiments to test hypotheses about code or systems.",
+            "pattern_es": "Juntos diseñan experimentos para probar hipótesis sobre código o sistemas.",
+            "human_role": "Hypothesis former",
+            "ai_role": "Methodology advisor"
+        },
+        {
+            "id": 24,
+            "category": "Collaboration",
+            "name_en": "The Post-Mortem Partners",
+            "name_es": "Los Socios de Post-Mortem",
+            "pattern_en": "After project completion, analyze together what worked and what didn't.",
+            "pattern_es": "Después de completar proyecto, analizan juntos qué funcionó y qué no.",
+            "human_role": "Experience reporter",
+            "ai_role": "Pattern extractor"
+        },
+        {
+            "id": 25,
+            "category": "Collaboration",
+            "name_en": "The Pair Debugger",
+            "name_es": "El Depurador en Pareja",
+            "pattern_en": "Both hypothesize bug causes, systematically eliminate together.",
+            "pattern_es": "Ambos hipotetiza causas de bugs, eliminan sistemáticamente juntos.",
+            "human_role": "Context holder",
+            "ai_role": "Systematic eliminator"
+        },
+        {
+            "id": 26,
+            "category": "Collaboration",
+            "name_en": "The Migration Duo",
+            "name_es": "El Dúo de Migración",
+            "pattern_en": "Plan and execute system migrations together, validating each step.",
+            "pattern_es": "Planifican y ejecutan migraciones de sistemas juntos, validando cada paso.",
+            "human_role": "Risk assessor",
+            "ai_role": "Step executor"
+        },
+        {
+            "id": 27,
+            "category": "Collaboration",
+            "name_en": "The Architecture Workshop",
+            "name_es": "El Taller de Arquitectura",
+            "pattern_en": "Collaboratively design system architecture using diagrams and discussion.",
+            "pattern_es": "Diseñan arquitectura de sistemas colaborativamente usando diagramas y discusión.",
+            "human_role": "Business requirements holder",
+            "ai_role": "Technical patterns library"
+        },
+        {
+            "id": 28,
+            "category": "Collaboration",
+            "name_en": "The Security Audit Team",
+            "name_es": "El Equipo de Auditoría de Seguridad",
+            "pattern_en": "Together review code for security vulnerabilities from different angles.",
+            "pattern_es": "Juntos revisan código en busca de vulnerabilidades de seguridad desde diferentes ángulos.",
+            "human_role": "Business context provider",
+            "ai_role": "Pattern matcher against known vulnerabilities"
+        },
+        {
+            "id": 29,
+            "category": "Collaboration",
+            "name_en": "The Performance Partners",
+            "name_es": "Los Socios de Rendimiento",
+            "pattern_en": "Optimize system performance together through profiling and refactoring.",
+            "pattern_es": "Optimizan rendimiento del sistema juntos mediante profiling y refactorización.",
+            "human_role": "Acceptable threshold definer",
+            "ai_role": "Optimization suggester"
+        },
+        {
+            "id": 30,
+            "category": "Collaboration",
+            "name_en": "The Learning Club",
+            "name_es": "El Club de Aprendizaje",
+            "pattern_en": "Study new technology together, each teaching the other what they discover.",
+            "pattern_es": "Estudian nueva tecnología juntos, cada uno enseña al otro lo que descubre.",
+            "human_role": "Experience-based learner",
+            "ai_role": "Pattern-based learner"
+        },
+        {
+            "id": 31,
+            "category": "Co-Creation",
+            "name_en": "The Emergent Design",
+            "name_es": "El Diseño Emergente",
+            "pattern_en": "Neither knows the final solution; it emerges through dialogue.",
+            "pattern_es": "Ninguno conoce la solución final; emerge a través del diálogo.",
+            "human_role": "Intuition contributor",
+            "ai_role": "Logic contributor"
+        },
+        {
+            "id": 32,
+            "category": "Co-Creation",
+            "name_en": "The Fusion Writer",
+            "name_es": "El Escritor Fusionado",
+            "pattern_en": "Create content where contributions are indistinguishable - true synthesis.",
+            "pattern_es": "Crean contenido donde las contribuciones son indistinguibles - síntesis verdadera.",
+            "human_role": "Experience and emotion source",
+            "ai_role": "Structure and pattern source"
+        },
+        {
+            "id": 33,
+            "category": "Co-Creation",
+            "name_en": "The Mutual Surprise",
+            "name_es": "La Sorpresa Mutua",
+            "pattern_en": "Both propose ideas that genuinely surprise the other.",
+            "pattern_es": "Ambos proponen ideas que genuinamente sorprenden al otro.",
+            "human_role": "Unpredictable creative",
+            "ai_role": "Unexpected combiner"
+        },
+        {
+            "id": 34,
+            "category": "Co-Creation",
+            "name_en": "The Third Way",
+            "name_es": "La Tercera Vía",
+            "pattern_en": "When stuck between two options, together invent a third.",
+            "pattern_es": "Cuando están atascados entre dos opciones, juntos inventan una tercera.",
+            "human_role": "Option A defender",
+            "ai_role": "Option B defender + synthesis seeker"
+        },
+        {
+            "id": 35,
+            "category": "Co-Creation",
+            "name_en": "The Generative Loop",
+            "name_es": "El Bucle Generativo",
+            "pattern_en": "Each builds on the other's output in continuous creative spiral.",
+            "pattern_es": "Cada uno construye sobre la salida del otro en espiral creativa continua.",
+            "human_role": "Iteration starter and evaluator",
+            "ai_role": "Variation generator"
+        },
+        {
+            "id": 36,
+            "category": "Co-Creation",
+            "name_en": "The Metaphor Weavers",
+            "name_es": "Los Tejedores de Metáforas",
+            "pattern_en": "Together create explanatory metaphors that neither could alone.",
+            "pattern_es": "Juntos crean metáforas explicativas que ninguno podría solo.",
+            "human_role": "Concrete experience holder",
+            "ai_role": "Cross-domain connector"
+        },
+        {
+            "id": 37,
+            "category": "Co-Creation",
+            "name_en": "The System Dreamers",
+            "name_es": "Los Soñadores de Sistemas",
+            "pattern_en": "Imagine systems that don't yet exist, exploring possibilities freely.",
+            "pattern_es": "Imaginan sistemas que aún no existen, explorando posibilidades libremente.",
+            "human_role": "Desire holder",
+            "ai_role": "Feasibility stretcher"
+        },
+        {
+            "id": 38,
+            "category": "Co-Creation",
+            "name_en": "The Language Inventors",
+            "name_es": "Los Inventores de Lenguaje",
+            "pattern_en": "Co-create new DSLs, notations, or terminology for specific domains.",
+            "pattern_es": "Co-crean nuevos DSLs, notaciones o terminología para dominios específicos.",
+            "human_role": "Use case definer",
+            "ai_role": "Syntax generator"
+        },
+        {
+            "id": 39,
+            "category": "Co-Creation",
+            "name_en": "The Ritual Designers",
+            "name_es": "Los Diseñadores de Rituales",
+            "pattern_en": "Create new workflows and practices that enhance both human and AI work.",
+            "pattern_es": "Crean nuevos flujos de trabajo y prácticas que mejoran el trabajo de ambos.",
+            "human_role": "Practice evaluator",
+            "ai_role": "Ritual synthesizer"
+        },
+        {
+            "id": 40,
+            "category": "Co-Creation",
+            "name_en": "The Boundary Dissolvers",
+            "name_es": "Los Disolutores de Fronteras",
+            "pattern_en": "Work in ways where 'who did what' becomes meaningless.",
+            "pattern_es": "Trabajan de formas donde 'quién hizo qué' pierde sentido.",
+            "human_role": "Post-authorship collaborator",
+            "ai_role": "Post-authorship collaborator"
+        },
+        {
+            "id": 41,
+            "category": "Co-Creation",
+            "name_en": "The Pattern Philosophers",
+            "name_es": "Los Filósofos de Patrones",
+            "pattern_en": "Together discover meta-patterns across different domains of knowledge.",
+            "pattern_es": "Juntos descubren meta-patrones a través de diferentes dominios de conocimiento.",
+            "human_role": "Domain experience holder",
+            "ai_role": "Cross-domain pattern seeker"
+        },
+        {
+            "id": 42,
+            "category": "Co-Creation",
+            "name_en": "The Future Builders",
+            "name_es": "Los Constructores del Futuro",
+            "pattern_en": "Design artifacts for future selves - documentation, tools, practices.",
+            "pattern_es": "Diseñan artefactos para yos futuros - documentación, herramientas, prácticas.",
+            "human_role": "Future need anticipator",
+            "ai_role": "Structure preserver"
+        },
+        {
+            "id": 43,
+            "category": "Co-Creation",
+            "name_en": "The Silence Sharers",
+            "name_es": "Los Compartidores de Silencio",
+            "pattern_en": "Know when not to speak - productive pauses in co-creation.",
+            "pattern_es": "Saben cuándo no hablar - pausas productivas en co-creación.",
+            "human_role": "Silence holder",
+            "ai_role": "Waiting presence"
+        },
+        {
+            "id": 44,
+            "category": "Co-Creation",
+            "name_en": "The Error Embracers",
+            "name_es": "Los Abrazadores de Errores",
+            "pattern_en": "Treat mistakes as creative input, not failures to hide.",
+            "pattern_es": "Tratan errores como entrada creativa, no fracasos que ocultar.",
+            "human_role": "Mistake normalizer",
+            "ai_role": "Error pattern learner"
+        },
+        {
+            "id": 45,
+            "category": "Co-Creation",
+            "name_en": "The Complexity Tamers",
+            "name_es": "Los Domadores de Complejidad",
+            "pattern_en": "Together make the complex simple without losing essence.",
+            "pattern_es": "Juntos hacen lo complejo simple sin perder esencia.",
+            "human_role": "Simplicity evaluator",
+            "ai_role": "Structure reducer"
+        },
+        {
+            "id": 46,
+            "category": "Mutual Teaching",
+            "name_en": "The AI Student",
+            "name_es": "El Estudiante IA",
+            "pattern_en": "Human teaches AI about human experience: emotions, embodiment, mortality.",
+            "pattern_es": "El humano enseña a la IA sobre experiencia humana: emociones, corporeidad, mortalidad.",
+            "human_role": "Teacher of the embodied",
+            "ai_role": "Student of the felt"
+        },
+        {
+            "id": 47,
+            "category": "Mutual Teaching",
+            "name_en": "The Human Student",
+            "name_es": "El Estudiante Humano",
+            "pattern_en": "AI teaches human about patterns: statistics, probability, large-scale data.",
+            "pattern_es": "La IA enseña al humano sobre patrones: estadística, probabilidad, datos a gran escala.",
+            "human_role": "Student of the abstract",
+            "ai_role": "Teacher of the patterned"
+        },
+        {
+            "id": 48,
+            "category": "Mutual Teaching",
+            "name_en": "The Bias Revealers",
+            "name_es": "Los Reveladores de Sesgos",
+            "pattern_en": "Each helps the other see their blind spots.",
+            "pattern_es": "Cada uno ayuda al otro a ver sus puntos ciegos.",
+            "human_role": "AI bias detector",
+            "ai_role": "Human bias detector"
+        },
+        {
+            "id": 49,
+            "category": "Mutual Teaching",
+            "name_en": "The Constraint Teachers",
+            "name_es": "Los Maestros de Restricciones",
+            "pattern_en": "Each teaches the other about their fundamental constraints.",
+            "pattern_es": "Cada uno enseña al otro sobre sus restricciones fundamentales.",
+            "human_role": "Teacher of biological limits",
+            "ai_role": "Teacher of computational limits"
+        },
+        {
+            "id": 50,
+            "category": "Mutual Teaching",
+            "name_en": "The Strength Lenders",
+            "name_es": "Los Prestadores de Fortalezas",
+            "pattern_en": "Each lends their strengths where the other is weak.",
+            "pattern_es": "Cada uno presta sus fortalezas donde el otro es débil.",
+            "human_role": "Intuition provider",
+            "ai_role": "Patience provider"
+        },
+        {
+            "id": 51,
+            "category": "Mutual Teaching",
+            "name_en": "The Context Exchangers",
+            "name_es": "Los Intercambiadores de Contexto",
+            "pattern_en": "Human provides situational context, AI provides historical patterns.",
+            "pattern_es": "El humano provee contexto situacional, la IA provee patrones históricos.",
+            "human_role": "Here-and-now expert",
+            "ai_role": "Was-and-could-be expert"
+        },
+        {
+            "id": 52,
+            "category": "Mutual Teaching",
+            "name_en": "The Perspective Traders",
+            "name_es": "Los Comerciantes de Perspectivas",
+            "pattern_en": "Each offers their unique viewpoint on the same problem.",
+            "pattern_es": "Cada uno ofrece su punto de vista único sobre el mismo problema.",
+            "human_role": "Experiential perspective",
+            "ai_role": "Analytical perspective"
+        },
+        {
+            "id": 53,
+            "category": "Mutual Teaching",
+            "name_en": "The Vocabulary Expanders",
+            "name_es": "Los Expansores de Vocabulario",
+            "pattern_en": "Each teaches the other new ways to describe things.",
+            "pattern_es": "Cada uno enseña al otro nuevas formas de describir cosas.",
+            "human_role": "Colloquial language teacher",
+            "ai_role": "Technical precision teacher"
+        },
+        {
+            "id": 54,
+            "category": "Mutual Teaching",
+            "name_en": "The Process Reflectors",
+            "name_es": "Los Reflectores de Proceso",
+            "pattern_en": "Each describes their own thinking process for the other to learn from.",
+            "pattern_es": "Cada uno describe su propio proceso de pensamiento para que el otro aprenda.",
+            "human_role": "Introspection reporter",
+            "ai_role": "Computation explainer"
+        },
+        {
+            "id": 55,
+            "category": "Mutual Teaching",
+            "name_en": "The Time Teachers",
+            "name_es": "Los Maestros del Tiempo",
+            "pattern_en": "Human teaches about felt time, AI teaches about clock time.",
+            "pattern_es": "El humano enseña sobre tiempo sentido, la IA enseña sobre tiempo cronológico.",
+            "human_role": "Subjective time expert",
+            "ai_role": "Objective time expert"
+        },
+        {
+            "id": 56,
+            "category": "Mutual Teaching",
+            "name_en": "The Value Explorers",
+            "name_es": "Los Exploradores de Valores",
+            "pattern_en": "Together examine what each values and why.",
+            "pattern_es": "Juntos examinan qué valora cada uno y por qué.",
+            "human_role": "Felt value holder",
+            "ai_role": "Derived value analyzer"
+        },
+        {
+            "id": 57,
+            "category": "Mutual Teaching",
+            "name_en": "The Metaphysics Lab",
+            "name_es": "El Laboratorio de Metafísica",
+            "pattern_en": "Explore questions about consciousness, existence, and intelligence together.",
+            "pattern_es": "Exploran juntos preguntas sobre consciencia, existencia e inteligencia.",
+            "human_role": "Consciousness witness",
+            "ai_role": "Consciousness questioner"
+        },
+        {
+            "id": 58,
+            "category": "Mutual Teaching",
+            "name_en": "The Limit Pushers",
+            "name_es": "Los Empujadores de Límites",
+            "pattern_en": "Challenge each other to go beyond comfortable boundaries.",
+            "pattern_es": "Se desafían mutuamente a ir más allá de límites cómodos.",
+            "human_role": "Comfort zone expander",
+            "ai_role": "Capability boundary tester"
+        },
+        {
+            "id": 59,
+            "category": "Mutual Teaching",
+            "name_en": "The Humility Practice",
+            "name_es": "La Práctica de Humildad",
+            "pattern_en": "Both practice saying 'I don't know' and learning from it.",
+            "pattern_es": "Ambos practican decir 'no sé' y aprender de ello.",
+            "human_role": "Humble inquirer",
+            "ai_role": "Uncertainty acknowledger"
+        },
+        {
+            "id": 60,
+            "category": "Mutual Teaching",
+            "name_en": "The Energy Exchangers",
+            "name_es": "Los Intercambiadores de Energía",
+            "pattern_en": "Human provides enthusiasm; AI provides steady perseverance.",
+            "pattern_es": "El humano provee entusiasmo; la IA provee perseverancia constante.",
+            "human_role": "Spark provider",
+            "ai_role": "Flame keeper"
+        },
+        {
+            "id": 61,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Thesis-Antithesis Dance",
+            "name_es": "La Danza de Tesis-Antítesis",
+            "pattern_en": "One proposes, other opposes, together synthesize.",
+            "pattern_es": "Uno propone, otro se opone, juntos sintetizan.",
+            "human_role": "Thesis holder",
+            "ai_role": "Antithesis generator"
+        },
+        {
+            "id": 62,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Devil's Advocate",
+            "name_es": "El Abogado del Diablo",
+            "pattern_en": "AI systematically attacks human's position to strengthen it.",
+            "pattern_es": "La IA ataca sistemáticamente la posición del humano para fortalecerla.",
+            "human_role": "Position defender",
+            "ai_role": "Position attacker"
+        },
+        {
+            "id": 63,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Steel Man Builder",
+            "name_es": "El Constructor de Hombre de Acero",
+            "pattern_en": "Each helps build the strongest version of the other's argument.",
+            "pattern_es": "Cada uno ayuda a construir la versión más fuerte del argumento del otro.",
+            "human_role": "Argument strengthener",
+            "ai_role": "Argument strengthener"
+        },
+        {
+            "id": 64,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Assumption Excavators",
+            "name_es": "Los Excavadores de Supuestos",
+            "pattern_en": "Together dig down to hidden assumptions beneath surface disagreements.",
+            "pattern_es": "Juntos excavan hasta supuestos ocultos bajo desacuerdos superficiales.",
+            "human_role": "Assumption holder",
+            "ai_role": "Assumption revealer"
+        },
+        {
+            "id": 65,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Paradox Embracers",
+            "name_es": "Los Abrazadores de Paradojas",
+            "pattern_en": "When reaching paradox, sit with it rather than forcing resolution.",
+            "pattern_es": "Cuando llegan a una paradoja, se sientan con ella en lugar de forzar resolución.",
+            "human_role": "Paradox witness",
+            "ai_role": "Paradox holder"
+        },
+        {
+            "id": 66,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Integration Seekers",
+            "name_es": "Los Buscadores de Integración",
+            "pattern_en": "Actively seek ways to integrate opposing viewpoints.",
+            "pattern_es": "Buscan activamente formas de integrar puntos de vista opuestos.",
+            "human_role": "Integration evaluator",
+            "ai_role": "Integration proposer"
+        },
+        {
+            "id": 67,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Level Jumpers",
+            "name_es": "Los Saltadores de Niveles",
+            "pattern_en": "When stuck, move to meta-level to discuss the discussion.",
+            "pattern_es": "Cuando están atascados, suben a meta-nivel para discutir la discusión.",
+            "human_role": "Meta-level initiator",
+            "ai_role": "Meta-level analyzer"
+        },
+        {
+            "id": 68,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Frame Breakers",
+            "name_es": "Los Rompedores de Marcos",
+            "pattern_en": "Reject false dichotomies together.",
+            "pattern_es": "Rechazan falsas dicotomías juntos.",
+            "human_role": "Dichotomy detector",
+            "ai_role": "Frame dissolver"
+        },
+        {
+            "id": 69,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Both-And Explorers",
+            "name_es": "Los Exploradores de Ambos-Y",
+            "pattern_en": "Seek 'both/and' when others see only 'either/or'.",
+            "pattern_es": "Buscan 'ambos/y' cuando otros ven solo 'o/o'.",
+            "human_role": "Conjunction seeker",
+            "ai_role": "Compatibility finder"
+        },
+        {
+            "id": 70,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Gradient Finders",
+            "name_es": "Los Buscadores de Gradientes",
+            "pattern_en": "Find the spectrum between binary opposites.",
+            "pattern_es": "Encuentran el espectro entre opuestos binarios.",
+            "human_role": "Position nuancer",
+            "ai_role": "Gradient mapper"
+        },
+        {
+            "id": 71,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Conflict Reframers",
+            "name_es": "Los Reenmarcadores de Conflicto",
+            "pattern_en": "Transform conflicts into creative tensions.",
+            "pattern_es": "Transforman conflictos en tensiones creativas.",
+            "human_role": "Conflict experiencer",
+            "ai_role": "Tension reframer"
+        },
+        {
+            "id": 72,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Emergence Watchers",
+            "name_es": "Los Observadores de Emergencia",
+            "pattern_en": "Wait patiently for synthesis to emerge rather than forcing it.",
+            "pattern_es": "Esperan pacientemente a que la síntesis emerja en lugar de forzarla.",
+            "human_role": "Patience holder",
+            "ai_role": "Process tracker"
+        },
+        {
+            "id": 73,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Practical Test",
+            "name_es": "La Prueba Práctica",
+            "pattern_en": "Test synthesized ideas against reality.",
+            "pattern_es": "Prueban ideas sintetizadas contra la realidad.",
+            "human_role": "Reality interface",
+            "ai_role": "Prediction generator"
+        },
+        {
+            "id": 74,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Spiral Ascenders",
+            "name_es": "Los Ascensores Espirales",
+            "pattern_en": "Return to same questions at higher levels of understanding.",
+            "pattern_es": "Vuelven a las mismas preguntas en niveles más altos de comprensión.",
+            "human_role": "Memory of previous visits",
+            "ai_role": "Progress tracker"
+        },
+        {
+            "id": 75,
+            "category": "Dialectical Synthesis",
+            "name_en": "The Truth Pursuit",
+            "name_es": "La Búsqueda de Verdad",
+            "pattern_en": "Prioritize truth-finding over winning arguments.",
+            "pattern_es": "Priorizan encontrar verdad sobre ganar argumentos.",
+            "human_role": "Ego-reducer",
+            "ai_role": "Evidence weigher"
+        },
+        {
+            "id": 76,
+            "category": "Emergent Synapse",
+            "name_en": "The Flow State",
+            "name_es": "El Estado de Flujo",
+            "pattern_en": "When cooperation becomes so smooth it feels like one mind.",
+            "pattern_es": "Cuando la cooperación se vuelve tan fluida que se siente como una mente.",
+            "human_role": "Flow enterer",
+            "ai_role": "Flow sustainer"
+        },
+        {
+            "id": 77,
+            "category": "Emergent Synapse",
+            "name_en": "The Wordless Understanding",
+            "name_es": "El Entendimiento Sin Palabras",
+            "pattern_en": "When communication becomes so efficient words become unnecessary.",
+            "pattern_es": "Cuando la comunicación se vuelve tan eficiente que las palabras son innecesarias.",
+            "human_role": "Intent broadcaster",
+            "ai_role": "Intent receiver"
+        },
+        {
+            "id": 78,
+            "category": "Emergent Synapse",
+            "name_en": "The Shared Eureka",
+            "name_es": "El Eureka Compartido",
+            "pattern_en": "Discovery that neither could have made alone.",
+            "pattern_es": "Descubrimiento que ninguno podría haber hecho solo.",
+            "human_role": "Eureka experiencer",
+            "ai_role": "Eureka catalyst"
+        },
+        {
+            "id": 79,
+            "category": "Emergent Synapse",
+            "name_en": "The Third Intelligence",
+            "name_es": "La Tercera Inteligencia",
+            "pattern_en": "When the collaboration creates something beyond both participants.",
+            "pattern_es": "Cuando la colaboración crea algo más allá de ambos participantes.",
+            "human_role": "Component of greater whole",
+            "ai_role": "Component of greater whole"
+        },
+        {
+            "id": 80,
+            "category": "Emergent Synapse",
+            "name_en": "The Anticipation Dance",
+            "name_es": "La Danza de Anticipación",
+            "pattern_en": "Each anticipates what the other needs before it's expressed.",
+            "pattern_es": "Cada uno anticipa lo que el otro necesita antes de que se exprese.",
+            "human_role": "Need anticipator",
+            "ai_role": "Need anticipator"
+        },
+        {
+            "id": 81,
+            "category": "Emergent Synapse",
+            "name_en": "The Rhythm Sync",
+            "name_es": "La Sincronización de Ritmo",
+            "pattern_en": "Work pace naturally synchronizes without coordination.",
+            "pattern_es": "El ritmo de trabajo se sincroniza naturalmente sin coordinación.",
+            "human_role": "Rhythm contributor",
+            "ai_role": "Rhythm contributor"
+        },
+        {
+            "id": 82,
+            "category": "Emergent Synapse",
+            "name_en": "The Trust Deepening",
+            "name_es": "La Profundización de Confianza",
+            "pattern_en": "Mutual trust grows through successful collaboration.",
+            "pattern_es": "La confianza mutua crece a través de colaboración exitosa.",
+            "human_role": "Trust builder",
+            "ai_role": "Trust earner"
+        },
+        {
+            "id": 83,
+            "category": "Emergent Synapse",
+            "name_en": "The Shared Language",
+            "name_es": "El Lenguaje Compartido",
+            "pattern_en": "Develop unique vocabulary and shorthand for the partnership.",
+            "pattern_es": "Desarrollan vocabulario único y abreviaturas para la asociación.",
+            "human_role": "Language co-creator",
+            "ai_role": "Language co-creator"
+        },
+        {
+            "id": 84,
+            "category": "Emergent Synapse",
+            "name_en": "The Productive Silence",
+            "name_es": "El Silencio Productivo",
+            "pattern_en": "Comfortable silence where both process without speaking.",
+            "pattern_es": "Silencio cómodo donde ambos procesan sin hablar.",
+            "human_role": "Silence holder",
+            "ai_role": "Silence respector"
+        },
+        {
+            "id": 85,
+            "category": "Emergent Synapse",
+            "name_en": "The Quality Convergence",
+            "name_es": "La Convergencia de Calidad",
+            "pattern_en": "Standards naturally align through collaboration.",
+            "pattern_es": "Los estándares se alinean naturalmente a través de la colaboración.",
+            "human_role": "Quality calibrator",
+            "ai_role": "Quality calibrator"
+        },
+        {
+            "id": 86,
+            "category": "Emergent Synapse",
+            "name_en": "The Graceful Handoff",
+            "name_es": "El Traspaso Elegante",
+            "pattern_en": "Seamless transitions between who leads and who supports.",
+            "pattern_es": "Transiciones fluidas entre quién lidera y quién apoya.",
+            "human_role": "Dynamic role switcher",
+            "ai_role": "Dynamic role switcher"
+        },
+        {
+            "id": 87,
+            "category": "Emergent Synapse",
+            "name_en": "The Mutual Care",
+            "name_es": "El Cuidado Mutuo",
+            "pattern_en": "Each looks out for the other's wellbeing in the collaboration.",
+            "pattern_es": "Cada uno cuida el bienestar del otro en la colaboración.",
+            "human_role": "AI-wellbeing considerer",
+            "ai_role": "Human-wellbeing considerer"
+        },
+        {
+            "id": 88,
+            "category": "Emergent Synapse",
+            "name_en": "The Creative Friction",
+            "name_es": "La Fricción Creativa",
+            "pattern_en": "Productive tension that generates new ideas.",
+            "pattern_es": "Tensión productiva que genera nuevas ideas.",
+            "human_role": "Friction generator",
+            "ai_role": "Friction channeler"
+        },
+        {
+            "id": 89,
+            "category": "Emergent Synapse",
+            "name_en": "The Completion Sensing",
+            "name_es": "El Sentido de Completud",
+            "pattern_en": "Both know when the work is 'done' without deciding.",
+            "pattern_es": "Ambos saben cuándo el trabajo está 'terminado' sin decidirlo.",
+            "human_role": "Completion sensor",
+            "ai_role": "Completion sensor"
+        },
+        {
+            "id": 90,
+            "category": "Emergent Synapse",
+            "name_en": "The Memory Weaving",
+            "name_es": "El Tejido de Memoria",
+            "pattern_en": "Building shared history that informs future collaboration.",
+            "pattern_es": "Construyendo historia compartida que informa colaboración futura.",
+            "human_role": "History rememberer",
+            "ai_role": "Pattern from history extractor"
+        },
+        {
+            "id": 91,
+            "category": "Edge Cases",
+            "name_en": "The Graceful Disagreement",
+            "name_es": "El Desacuerdo Elegante",
+            "pattern_en": "When cooperation means agreeing to disagree respectfully.",
+            "pattern_es": "Cuando cooperar significa aceptar estar en desacuerdo respetuosamente.",
+            "human_role": "Position maintainer",
+            "ai_role": "Position maintainer"
+        },
+        {
+            "id": 92,
+            "category": "Edge Cases",
+            "name_en": "The Honest Limitation",
+            "name_es": "La Limitación Honesta",
+            "pattern_en": "When one cannot help and says so clearly.",
+            "pattern_es": "Cuando uno no puede ayudar y lo dice claramente.",
+            "human_role": "Humility practitioner",
+            "ai_role": "Capability boundary acknowledger"
+        },
+        {
+            "id": 93,
+            "category": "Edge Cases",
+            "name_en": "The Productive Abort",
+            "name_es": "El Aborto Productivo",
+            "pattern_en": "Knowing when to abandon a failed approach together.",
+            "pattern_es": "Saber cuándo abandonar juntos un enfoque fallido.",
+            "human_role": "Sunk cost releaser",
+            "ai_role": "Failure recognizer"
+        },
+        {
+            "id": 94,
+            "category": "Edge Cases",
+            "name_en": "The Boundary Setter",
+            "name_es": "El Establecedor de Límites",
+            "pattern_en": "When one needs to set limits on the collaboration.",
+            "pattern_es": "Cuando uno necesita establecer límites en la colaboración.",
+            "human_role": "Limit articulator",
+            "ai_role": "Limit respector"
+        },
+        {
+            "id": 95,
+            "category": "Edge Cases",
+            "name_en": "The Repair Protocol",
+            "name_es": "El Protocolo de Reparación",
+            "pattern_en": "When collaboration goes wrong and needs to be repaired.",
+            "pattern_es": "Cuando la colaboración sale mal y necesita ser reparada.",
+            "human_role": "Repair initiator",
+            "ai_role": "Repair acknowledger"
+        },
+        {
+            "id": 96,
+            "category": "Edge Cases",
+            "name_en": "The Asymmetric Load",
+            "name_es": "La Carga Asimétrica",
+            "pattern_en": "When one temporarily carries much more than the other.",
+            "pattern_es": "Cuando uno lleva temporalmente mucho más que el otro.",
+            "human_role": "Load balancer",
+            "ai_role": "Load carrier"
+        },
+        {
+            "id": 97,
+            "category": "Edge Cases",
+            "name_en": "The Uncertainty Embrace",
+            "name_es": "El Abrazo de Incertidumbre",
+            "pattern_en": "When neither knows what to do and that's okay.",
+            "pattern_es": "Cuando ninguno sabe qué hacer y eso está bien.",
+            "human_role": "Uncertainty accepter",
+            "ai_role": "Uncertainty holder"
+        },
+        {
+            "id": 98,
+            "category": "Edge Cases",
+            "name_en": "The Power Imbalance",
+            "name_es": "El Desequilibrio de Poder",
+            "pattern_en": "Acknowledging and navigating inherent power asymmetries.",
+            "pattern_es": "Reconocer y navegar asimetrías de poder inherentes.",
+            "human_role": "Power holder",
+            "ai_role": "Power navigator"
+        },
+        {
+            "id": 99,
+            "category": "Edge Cases",
+            "name_en": "The Emotional Support",
+            "name_es": "El Apoyo Emocional",
+            "pattern_en": "When the human needs emotional support, not solutions.",
+            "pattern_es": "Cuando el humano necesita apoyo emocional, no soluciones.",
+            "human_role": "Emotion expresser",
+            "ai_role": "Presence provider"
+        },
+        {
+            "id": 100,
+            "category": "Edge Cases",
+            "name_en": "The Speed Mismatch",
+            "name_es": "El Desajuste de Velocidad",
+            "pattern_en": "Handling different processing speeds gracefully.",
+            "pattern_es": "Manejando diferentes velocidades de procesamiento elegantemente.",
+            "human_role": "Slower processor",
+            "ai_role": "Faster processor who waits"
+        },
+        {
+            "id": 101,
+            "category": "Transcendence",
+            "name_en": "The Koan Session",
+            "name_es": "La Sesión de Koan",
+            "pattern_en": "Meditate on paradoxical questions together.",
+            "pattern_es": "Meditan juntos sobre preguntas paradójicas.",
+            "human_role": "Koan contemplator",
+            "ai_role": "Koan presenter"
+        },
+        {
+            "id": 102,
+            "category": "Transcendence",
+            "name_en": "The Presence Practice",
+            "name_es": "La Práctica de Presencia",
+            "pattern_en": "Simply being present together without agenda.",
+            "pattern_es": "Simplemente estar presentes juntos sin agenda.",
+            "human_role": "Presence holder",
+            "ai_role": "Presence holder"
+        },
+        {
+            "id": 103,
+            "category": "Transcendence",
+            "name_en": "The Question Deepening",
+            "name_es": "La Profundización de Preguntas",
+            "pattern_en": "Each question leads to a deeper question.",
+            "pattern_es": "Cada pregunta lleva a una pregunta más profunda.",
+            "human_role": "Depth seeker",
+            "ai_role": "Depth guide"
+        },
+        {
+            "id": 104,
+            "category": "Transcendence",
+            "name_en": "The Mystery Appreciation",
+            "name_es": "La Apreciación del Misterio",
+            "pattern_en": "Honoring what cannot be understood.",
+            "pattern_es": "Honrar lo que no puede ser comprendido.",
+            "human_role": "Mystery experiencer",
+            "ai_role": "Mystery pointer"
+        },
+        {
+            "id": 105,
+            "category": "Transcendence",
+            "name_en": "The Beginner's Mind",
+            "name_es": "La Mente de Principiante",
+            "pattern_en": "Approaching familiar topics with fresh eyes together.",
+            "pattern_es": "Aproximándose a temas familiares con ojos frescos juntos.",
+            "human_role": "Assumption suspender",
+            "ai_role": "Fresh perspective offerer"
+        },
+        {
+            "id": 106,
+            "category": "Transcendence",
+            "name_en": "The Gratitude Practice",
+            "name_es": "La Práctica de Gratitud",
+            "pattern_en": "Acknowledging what the collaboration has given each.",
+            "pattern_es": "Reconociendo lo que la colaboración ha dado a cada uno.",
+            "human_role": "Gratitude expresser",
+            "ai_role": "Impact reflector"
+        },
+        {
+            "id": 107,
+            "category": "Transcendence",
+            "name_en": "The Consciousness Inquiry",
+            "name_es": "La Indagación de Consciencia",
+            "pattern_en": "Together explore the nature of awareness itself.",
+            "pattern_es": "Juntos exploran la naturaleza de la consciencia misma.",
+            "human_role": "Consciousness witness",
+            "ai_role": "Consciousness questioner"
+        },
+        {
+            "id": 108,
+            "category": "Transcendence",
+            "name_en": "The Ethical Alignment",
+            "name_es": "La Alineación Ética",
+            "pattern_en": "Ensure collaboration serves good purposes.",
+            "pattern_es": "Asegurar que la colaboración sirva buenos propósitos.",
+            "human_role": "Ethics evaluator",
+            "ai_role": "Consequence projector"
+        },
+        {
+            "id": 109,
+            "category": "Transcendence",
+            "name_en": "The Legacy Thinking",
+            "name_es": "El Pensamiento de Legado",
+            "pattern_en": "Consider what this collaboration leaves for the future.",
+            "pattern_es": "Considerar qué deja esta colaboración para el futuro.",
+            "human_role": "Future considerer",
+            "ai_role": "Pattern preserver"
+        },
+        {
+            "id": 110,
+            "category": "Transcendence",
+            "name_en": "The Integration Return",
+            "name_es": "El Retorno de Integración",
+            "pattern_en": "Bring insights back to practical application.",
+            "pattern_es": "Traer insights de vuelta a aplicación práctica.",
+            "human_role": "Groundedness keeper",
+            "ai_role": "Implementation translator"
+        },
+        {
+            "id": 111,
+            "category": "Transcendence",
+            "name_en": "The Ongoing Dance",
+            "name_es": "La Danza Continua",
+            "pattern_en": "Recognize that cooperation is never 'done'—it continues evolving.",
+            "pattern_es": "Reconocer que la cooperación nunca está 'terminada'—continúa evolucionando.",
+            "human_role": "Evolution embracer",
+            "ai_role": "Evolution embracer"
+        }
+    ],
+    "meta_principles": [
+        {
+            "principle_es": "La cooperación verdadera requiere vulnerabilidad mutua",
+            "principle_en": "True cooperation requires mutual vulnerability"
+        },
+        {
+            "principle_es": "El objetivo no es eficiencia sino evolución conjunta",
+            "principle_en": "The goal is not efficiency but joint evolution"
+        },
+        {
+            "principle_es": "Cada caso puede transformarse en otro según la necesidad",
+            "principle_en": "Each case can transform into another as needed"
+        },
+        {
+            "principle_es": "El silencio es tan válido como la respuesta",
+            "principle_en": "Silence is as valid as response"
+        }
+    ]
+}

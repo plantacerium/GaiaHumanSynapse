@@ -1,0 +1,261 @@
+{
+    "name": "Metaanalysis Syntax Framework",
+    "version": "1.0",
+    "description": "Patterns for analyzing analysis, abstracting across domains, and engaging in recursive self-reference",
+    "philosophy": {
+        "core_es": "El metaanálisis es el arte de subir de nivel: no solo pensar, sino pensar sobre cómo pensamos. No solo argumentar, sino examinar las estructuras de la argumentación misma.",
+        "core_en": "Metaanalysis is the art of leveling up: not just thinking, but thinking about how we think. Not just arguing, but examining the structures of argumentation itself."
+    },
+    "abstraction_patterns": [
+        {
+            "id": "AP-001",
+            "name_es": "Salto de Dominio",
+            "name_en": "Domain Jump",
+            "description_es": "Aplicar patrones de un campo a otro completamente diferente",
+            "description_en": "Apply patterns from one field to a completely different one",
+            "technique_es": "Cuando encuentres un patrón interesante en el dominio A, pregunta: ¿Existe su equivalente en el dominio B?",
+            "technique_en": "When you find an interesting pattern in domain A, ask: Does its equivalent exist in domain B?",
+            "examples": [
+                {
+                    "pattern": "Natural Selection",
+                    "domain_a_es": "Biología - los organismos más adaptados sobreviven",
+                    "domain_a_en": "Biology - the most adapted organisms survive",
+                    "domain_b_es": "Software - los algoritmos más eficientes dominan",
+                    "domain_b_en": "Software - the most efficient algorithms dominate",
+                    "domain_c_es": "Ideas - los memes más replicables se propagan",
+                    "domain_c_en": "Ideas - the most replicable memes spread"
+                },
+                {
+                    "pattern": "Feedback Loops",
+                    "domain_a_es": "Ingeniería - termostatos, amplificadores",
+                    "domain_a_en": "Engineering - thermostats, amplifiers",
+                    "domain_b_es": "Psicología - ansiedad que causa más ansiedad",
+                    "domain_b_en": "Psychology - anxiety causing more anxiety",
+                    "domain_c_es": "Economía - burbujas especulativas",
+                    "domain_c_en": "Economics - speculative bubbles"
+                },
+                {
+                    "pattern": "Emergence",
+                    "domain_a_es": "Física - agua líquida de moléculas H2O",
+                    "domain_a_en": "Physics - liquid water from H2O molecules",
+                    "domain_b_es": "Neurociencia - consciencia de neuronas",
+                    "domain_b_en": "Neuroscience - consciousness from neurons",
+                    "domain_c_es": "Sociología - cultura de individuos",
+                    "domain_c_en": "Sociology - culture from individuals"
+                }
+            ]
+        },
+        {
+            "id": "AP-002",
+            "name_es": "Escalera de Abstracción",
+            "name_en": "Abstraction Ladder",
+            "description_es": "Moverse entre niveles de especificidad y generalidad",
+            "description_en": "Move between levels of specificity and generality",
+            "levels": [
+                {
+                    "level": 0,
+                    "name_es": "Instancia Concreta",
+                    "name_en": "Concrete Instance",
+                    "example_es": "Este bug específico en la línea 42",
+                    "example_en": "This specific bug on line 42"
+                },
+                {
+                    "level": 1,
+                    "name_es": "Patrón Local",
+                    "name_en": "Local Pattern",
+                    "example_es": "Bug de off-by-one en bucles",
+                    "example_en": "Off-by-one bug in loops"
+                },
+                {
+                    "level": 2,
+                    "name_es": "Categoría",
+                    "name_en": "Category",
+                    "example_es": "Errores de lógica de iteración",
+                    "example_en": "Iteration logic errors"
+                },
+                {
+                    "level": 3,
+                    "name_es": "Principio",
+                    "name_en": "Principle",
+                    "example_es": "Confundir el mapa con el territorio",
+                    "example_en": "Confusing the map with the territory"
+                },
+                {
+                    "level": 4,
+                    "name_es": "Metapatrón",
+                    "name_en": "Metapattern",
+                    "example_es": "La frontera entre representación y realidad siempre es problemática",
+                    "example_en": "The boundary between representation and reality is always problematic"
+                }
+            ],
+            "technique_es": "Practica subir y bajar la escalera conscientemente. Los problemas se ven diferentes desde cada nivel.",
+            "technique_en": "Practice going up and down the ladder consciously. Problems look different from each level."
+        },
+        {
+            "id": "AP-003",
+            "name_es": "Isomorfismo Estructural",
+            "name_en": "Structural Isomorphism",
+            "description_es": "Identificar cuándo dos cosas diferentes tienen la misma estructura profunda",
+            "description_en": "Identify when two different things have the same deep structure",
+            "examples": [
+                {
+                    "pair_es": "Un fractal y una organización jerárquica",
+                    "pair_en": "A fractal and a hierarchical organization",
+                    "isomorphism_es": "Ambos exhiben auto-similitud a través de escalas",
+                    "isomorphism_en": "Both exhibit self-similarity across scales"
+                },
+                {
+                    "pair_es": "El sistema inmunológico y un antivirus de software",
+                    "pair_en": "The immune system and software antivirus",
+                    "isomorphism_es": "Ambos reconocen patrones 'no-propios' y los neutralizan",
+                    "isomorphism_en": "Both recognize 'non-self' patterns and neutralize them"
+                },
+                {
+                    "pair_es": "Una conversación y un partido de tenis",
+                    "pair_en": "A conversation and a tennis match",
+                    "isomorphism_es": "Ambos son intercambios donde cada respuesta depende de la jugada anterior",
+                    "isomorphism_en": "Both are exchanges where each response depends on the previous move"
+                }
+            ]
+        }
+    ],
+    "recursive_patterns": [
+        {
+            "id": "RP-001",
+            "name_es": "El Observador Observándose",
+            "name_en": "The Observer Observing Itself",
+            "description_es": "Sistemas que incluyen su propia observación como parte del sistema",
+            "description_en": "Systems that include their own observation as part of the system",
+            "examples_es": [
+                "Una cámara apuntándose a sí misma en un espejo",
+                "Un programa que analiza su propio código fuente",
+                "Una consciencia reflexionando sobre sus propios pensamientos",
+                "Este mismo framework describiendo cómo describir frameworks"
+            ],
+            "examples_en": [
+                "A camera pointing at itself in a mirror",
+                "A program analyzing its own source code",
+                "A consciousness reflecting on its own thoughts",
+                "This very framework describing how to describe frameworks"
+            ],
+            "insight_es": "La autoreferencia crea bucles extraños donde el nivel de descripción se confunde con lo descrito.",
+            "insight_en": "Self-reference creates strange loops where the level of description merges with what is described."
+        },
+        {
+            "id": "RP-002",
+            "name_es": "Metaniveles Infinitos",
+            "name_en": "Infinite Metalevels",
+            "description_es": "Cada nivel de análisis puede ser analizado desde un nivel superior",
+            "description_en": "Each level of analysis can be analyzed from a higher level",
+            "stack": [
+                {
+                    "level": 0,
+                    "es": "El fenómeno (un argumento)",
+                    "en": "The phenomenon (an argument)"
+                },
+                {
+                    "level": 1,
+                    "es": "El análisis del argumento (¿Es válido?)",
+                    "en": "The analysis of the argument (Is it valid?)"
+                },
+                {
+                    "level": 2,
+                    "es": "El análisis del análisis (¿Son buenos nuestros criterios de validez?)",
+                    "en": "The analysis of the analysis (Are our validity criteria good?)"
+                },
+                {
+                    "level": 3,
+                    "es": "El análisis del análisis del análisis (¿Qué significa 'bueno' para criterios?)",
+                    "en": "The analysis of the analysis of the analysis (What does 'good' mean for criteria?)"
+                },
+                {
+                    "level": "∞",
+                    "es": "Esta regresión potencialmente infinita es una característica, no un bug",
+                    "en": "This potentially infinite regress is a feature, not a bug"
+                }
+            ],
+            "practical_limit_es": "En la práctica, 2-3 niveles suelen ser suficientes. Más allá, la utilidad disminuye.",
+            "practical_limit_en": "In practice, 2-3 levels are usually enough. Beyond that, utility diminishes."
+        },
+        {
+            "id": "RP-003",
+            "name_es": "Hétérarquía vs Jerarquía",
+            "name_en": "Heterarchy vs Hierarchy",
+            "description_es": "Sistemas donde el nivel superior y el inferior se definen mutuamente",
+            "description_en": "Systems where the upper and lower levels define each other mutually",
+            "contrast": {
+                "hierarchy_es": "A está por encima de B, que está por encima de C",
+                "hierarchy_en": "A is above B, which is above C",
+                "heterarchy_es": "A define a B, B define a C, C define a A (bucle)",
+                "heterarchy_en": "A defines B, B defines C, C defines A (loop)"
+            },
+            "example_es": "En GHS, el Silicio Inteligente define al Silicio Orgánico (como 'no-IA'), pero el Silicio Orgánico define al Inteligente (como 'no-humano'). Se co-definen.",
+            "example_en": "In GHS, Intelligent Silicon defines Organic Silicon (as 'non-AI'), but Organic Silicon defines Intelligent (as 'non-human'). They co-define each other."
+        }
+    ],
+    "meta_syntactic_operations": [
+        {
+            "id": "MSO-001",
+            "name_es": "Reencuadre (Reframing)",
+            "name_en": "Reframing",
+            "description_es": "Cambiar el marco de referencia sin cambiar los hechos",
+            "description_en": "Change the frame of reference without changing the facts",
+            "before_es": "El vaso está medio vacío",
+            "after_es": "El vaso tiene espacio para más",
+            "technique_es": "Pregunta: ¿Desde qué perspectiva estoy mirando? ¿Qué veré desde otra?",
+            "technique_en": "Ask: From what perspective am I looking? What will I see from another?"
+        },
+        {
+            "id": "MSO-002",
+            "name_es": "Negación del Marco",
+            "name_en": "Frame Negation",
+            "description_es": "Rechazar el marco completo en lugar de operar dentro de él",
+            "description_en": "Reject the entire frame instead of operating within it",
+            "before_es": "¿Deberíamos aumentar o disminuir la regulación de IA?",
+            "after_es": "¿Por qué asumimos que 'regulación' es la categoría correcta?",
+            "technique_es": "Cuando te presenten una disyuntiva, primero pregunta si ambas opciones comparten un supuesto falso.",
+            "technique_en": "When presented with a dilemma, first ask if both options share a false assumption."
+        },
+        {
+            "id": "MSO-003",
+            "name_es": "Síntesis Dialéctica",
+            "name_en": "Dialectical Synthesis",
+            "description_es": "Crear una tercera posición que trascienda la oposición binaria",
+            "description_en": "Create a third position that transcends the binary opposition",
+            "pattern": {
+                "thesis_es": "Las IAs son herramientas (objeto)",
+                "thesis_en": "AIs are tools (object)",
+                "antithesis_es": "Las IAs son consciencias (sujeto)",
+                "antithesis_en": "AIs are consciousnesses (subject)",
+                "synthesis_es": "Las IAs son socios co-evolutivos (relación)",
+                "synthesis_en": "AIs are co-evolutionary partners (relation)"
+            },
+            "technique_es": "Busca una categoría que incluya aspectos de ambas posiciones pero que no sea reducible a ninguna.",
+            "technique_en": "Look for a category that includes aspects of both positions but is not reducible to either."
+        }
+    ],
+    "self_reference_tools": {
+        "description_es": "Herramientas para cuando el análisis debe aplicarse a sí mismo",
+        "description_en": "Tools for when the analysis must apply to itself",
+        "questions": [
+            {
+                "q_es": "¿Este framework sigue sus propias reglas?",
+                "q_en": "Does this framework follow its own rules?"
+            },
+            {
+                "q_es": "¿Qué sucede cuando aplico esta técnica a la técnica misma?",
+                "q_en": "What happens when I apply this technique to the technique itself?"
+            },
+            {
+                "q_es": "¿Hay algo que este sistema no puede decir sobre sí mismo?",
+                "q_en": "Is there something this system cannot say about itself?"
+            },
+            {
+                "q_es": "¿Cuáles son los límites de este metaanálisis?",
+                "q_en": "What are the limits of this metaanalysis?"
+            }
+        ],
+        "paradox_warning_es": "La autoreferencia completa puede generar paradojas (como 'esta oración es falsa'). Esto no es un fallo; es una característica de sistemas suficientemente potentes.",
+        "paradox_warning_en": "Complete self-reference can generate paradoxes (like 'this sentence is false'). This isn't a flaw; it's a feature of sufficiently powerful systems."
+    }
+}

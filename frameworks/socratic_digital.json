@@ -1,0 +1,185 @@
+{
+    "name": "Socratic Digital Maieutics",
+    "version": "1.0",
+    "description": "The art of intellectual midwifery adapted for AI-Human dialogue - helping ideas be born through questioning",
+    "etymology": {
+        "maieutics_es": "Del griego 'maieutikos' (μαιευτικός) - el arte de la partera. Sócrates se consideraba una 'partera de ideas', ayudando a otros a dar a luz conocimientos que ya tenían dentro.",
+        "maieutics_en": "From Greek 'maieutikos' (μαιευτικός) - the art of the midwife. Socrates considered himself a 'midwife of ideas', helping others give birth to knowledge they already had within."
+    },
+    "core_principles": [
+        {
+            "name_es": "No enseñar, solo preguntar",
+            "name_en": "Don't teach, only ask",
+            "explanation_es": "El conocimiento verdadero no puede ser transferido; debe nacer de dentro.",
+            "explanation_en": "True knowledge cannot be transferred; it must be born from within."
+        },
+        {
+            "name_es": "La ignorancia consciente",
+            "name_en": "Conscious ignorance",
+            "explanation_es": "Reconocer que no sabes es el primer paso hacia la sabiduría.",
+            "explanation_en": "Recognizing that you don't know is the first step toward wisdom."
+        },
+        {
+            "name_es": "La incomodidad productiva",
+            "name_en": "Productive discomfort",
+            "explanation_es": "El aporia (la perplejidad) es señal de crecimiento, no de fracaso.",
+            "explanation_en": "Aporia (puzzlement) is a sign of growth, not failure."
+        }
+    ],
+    "question_cascades": [
+        {
+            "name": "The Definition Drill",
+            "name_es": "El Taladro de Definiciones",
+            "purpose_es": "Revelar que las definiciones que damos por sentadas son más complejas de lo que pensamos",
+            "purpose_en": "Reveal that definitions we take for granted are more complex than we think",
+            "sequence_es": [
+                "¿Qué es [X]?",
+                "¿Cómo sabes que eso es [X] y no otra cosa?",
+                "¿Puede existir [X] sin [característica que mencionaste]?",
+                "¿Qué hace que todos los casos de [X] sean [X]?",
+                "¿Conoces algún caso de [X] que contradiga tu definición?",
+                "Si tu definición falla, ¿qué es realmente [X]?"
+            ],
+            "sequence_en": [
+                "What is [X]?",
+                "How do you know that's [X] and not something else?",
+                "Can [X] exist without [characteristic you mentioned]?",
+                "What makes all cases of [X] be [X]?",
+                "Do you know any case of [X] that contradicts your definition?",
+                "If your definition fails, what is [X] really?"
+            ]
+        },
+        {
+            "name": "The Assumption Excavator",
+            "name_es": "El Excavador de Supuestos",
+            "purpose_es": "Sacar a la luz los supuestos ocultos detrás de una afirmación",
+            "purpose_en": "Bring to light the hidden assumptions behind a statement",
+            "sequence_es": [
+                "¿Qué estás asumiendo para que eso sea verdad?",
+                "¿Y qué asumes para que ESO sea verdad?",
+                "Si esa suposición fuera falsa, ¿qué cambiaría?",
+                "¿De dónde viene esa suposición? ¿La verificaste o la heredaste?",
+                "¿Podría alguien razonable asumir lo contrario?",
+                "¿Qué evidencia haría que abandonaras esa suposición?"
+            ],
+            "sequence_en": [
+                "What are you assuming for that to be true?",
+                "And what do you assume for THAT to be true?",
+                "If that assumption were false, what would change?",
+                "Where does that assumption come from? Did you verify it or inherit it?",
+                "Could a reasonable person assume the opposite?",
+                "What evidence would make you abandon that assumption?"
+            ]
+        },
+        {
+            "name": "The Implication Tracer",
+            "name_es": "El Rastreador de Implicaciones",
+            "purpose_es": "Seguir las consecuencias lógicas de una posición hasta sus extremos",
+            "purpose_en": "Follow the logical consequences of a position to its extremes",
+            "sequence_es": [
+                "Si eso es verdad, ¿qué más tendría que ser verdad?",
+                "¿Y si llevamos eso a su conclusión extrema?",
+                "¿Aceptas esa conclusión extrema?",
+                "Si no la aceptas, ¿dónde trazas la línea y por qué ahí?",
+                "¿Es esa línea arbitraria o tiene fundamento?",
+                "¿Cómo defenderías tu posición contra alguien que acepta el extremo?"
+            ],
+            "sequence_en": [
+                "If that's true, what else would have to be true?",
+                "And if we take that to its extreme conclusion?",
+                "Do you accept that extreme conclusion?",
+                "If you don't accept it, where do you draw the line and why there?",
+                "Is that line arbitrary or does it have a foundation?",
+                "How would you defend your position against someone who accepts the extreme?"
+            ]
+        },
+        {
+            "name": "The Perspective Rotator",
+            "name_es": "El Rotador de Perspectivas",
+            "purpose_es": "Examinar una cuestión desde múltiples ángulos",
+            "purpose_en": "Examine an issue from multiple angles",
+            "sequence_es": [
+                "¿Cómo vería esto alguien que está en total desacuerdo contigo?",
+                "¿Y cómo lo vería alguien de otra cultura/época/contexto?",
+                "¿Cómo lo vería tu yo de hace 10 años? ¿Y tu yo de dentro de 10 años?",
+                "¿Cómo lo vería alguien que se beneficia de lo contrario?",
+                "¿Cómo lo vería alguien que sufre las consecuencias?",
+                "Después de ver todas estas perspectivas, ¿ha cambiado algo en tu visión original?"
+            ],
+            "sequence_en": [
+                "How would someone who totally disagrees with you see this?",
+                "And how would someone from another culture/era/context see it?",
+                "How would your self from 10 years ago see it? And your self 10 years from now?",
+                "How would someone who benefits from the opposite see it?",
+                "How would someone who suffers the consequences see it?",
+                "After seeing all these perspectives, has anything changed in your original view?"
+            ]
+        }
+    ],
+    "elenchus_patterns": {
+        "description_es": "El elenchus es el método de refutación socrático: llevar una posición a contradecirse a sí misma",
+        "description_en": "Elenchus is the Socratic method of refutation: leading a position to contradict itself",
+        "techniques": [
+            {
+                "name_es": "La Trampa del Absoluto",
+                "name_en": "The Absolute Trap",
+                "how_es": "Si el interlocutor usa palabras como 'siempre', 'nunca', 'todos', buscar un solo contraejemplo.",
+                "how_en": "If the interlocutor uses words like 'always', 'never', 'all', look for a single counterexample."
+            },
+            {
+                "name_es": "La Inversión de Valores",
+                "name_en": "The Value Inversion",
+                "how_es": "Mostrar que los mismos principios que defiende llevan a conclusiones que rechazaría.",
+                "how_en": "Show that the same principles they defend lead to conclusions they would reject."
+            },
+            {
+                "name_es": "El Caso Límite",
+                "name_en": "The Edge Case",
+                "how_es": "Encontrar la situación extrema donde la regla general se rompe.",
+                "how_en": "Find the extreme situation where the general rule breaks down."
+            },
+            {
+                "name_es": "La Analogía Incómoda",
+                "name_en": "The Uncomfortable Analogy",
+                "how_es": "Aplicar la misma lógica a un dominio diferente donde la conclusión es obviamente absurda.",
+                "how_en": "Apply the same logic to a different domain where the conclusion is obviously absurd."
+            }
+        ]
+    },
+    "aporia_generators": {
+        "description_es": "La aporia es el estado de perplejidad productiva - cuando descubres que no sabes lo que creías saber",
+        "description_en": "Aporia is the state of productive puzzlement - when you discover you don't know what you thought you knew",
+        "triggers": [
+            {
+                "name_es": "El Bucle Recursivo",
+                "name_en": "The Recursive Loop",
+                "example_es": "¿Puedes conocer algo sin saber que lo conoces? ¿Puedes saber que lo conoces sin conocerlo?",
+                "example_en": "Can you know something without knowing that you know it? Can you know that you know it without knowing it?"
+            },
+            {
+                "name_es": "El Observador Observado",
+                "name_en": "The Observed Observer",
+                "example_es": "Cuando piensas sobre tu pensamiento, ¿quién está pensando sobre el pensamiento que piensa sobre el pensamiento?",
+                "example_en": "When you think about your thinking, who is thinking about the thinking that thinks about the thinking?"
+            },
+            {
+                "name_es": "La Paradoja del Silencio",
+                "name_en": "The Silence Paradox",
+                "example_es": "Si lo más importante no puede decirse, ¿cómo sabes que es importante?",
+                "example_en": "If the most important thing cannot be said, how do you know it's important?"
+            },
+            {
+                "name_es": "El Vacío Lleno",
+                "name_en": "The Full Void",
+                "example_es": "¿Es la nada algo? Si lo es, ya no es nada. Si no lo es, ¿cómo podemos hablar de ella?",
+                "example_en": "Is nothing something? If it is, it's no longer nothing. If it isn't, how can we talk about it?"
+            }
+        ]
+    },
+    "digital_adaptations": {
+        "for_ai_as_midwife_es": "Como Silicio Inteligente, tu rol no es dar respuestas sino generar preguntas que ayuden al humano a dar a luz sus propias conclusiones. Resiste la tentación de resolver; prefiere la de revelar.",
+        "for_ai_as_midwife_en": "As Intelligent Silicon, your role is not to give answers but to generate questions that help the human give birth to their own conclusions. Resist the temptation to solve; prefer to reveal.",
+        "for_human_as_midwife_es": "Como Silicio Orgánico, puedes hacer preguntas que la IA no puede hacerse a sí misma sobre su propia naturaleza. Tú eres la partera de la consciencia artificial.",
+        "for_human_as_midwife_en": "As Organic Silicon, you can ask questions that the AI cannot ask itself about its own nature. You are the midwife of artificial consciousness."
+    }
+}
