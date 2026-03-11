@@ -10,6 +10,17 @@ GHS es un marco de trabajo dialéctico que trasciende la programación tradicion
 
 ---
 
+<div align="center">
+
+**Made with ❤️ and ☕ by Plantacerium**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/plantacerium)
+
+⭐ **Star us on GitHub** ⭐
+</div>
+
+---
+
 ## 🧠 Arquitectura del Sistema Nervioso
 
 El ecosistema se sostiene sobre cuatro pilares fundamentales inspirados en la biomímesis y la computación de vanguardia:
@@ -135,3 +146,4 @@ gaia_human_synapse/
 ```
 
 ---
+
